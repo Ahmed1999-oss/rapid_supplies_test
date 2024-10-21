@@ -110,6 +110,8 @@ http://localhost:8000/api
 
 | Method | Endpoint           | Description                     |
 |--------|--------------------|---------------------------------|
+| POST   | /login             | User Login |
+| POST   | /signup            | User Signup |
 | GET    | /books             | Retrieve all books (with pagination and search filters) |
 | POST   | /books             | Create a new book              |
 | GET    | /books/{id}        | Retrieve a specific book by ID |
